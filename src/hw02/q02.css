@@ -1,0 +1,307 @@
+/*
+Ejercicio 4
+
+4.- Pasemos a la segunda parte, observaras lo siguiente: 
+Ahora deberás lograr lo siguiente haciendo uso de grid.
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 100px); 
+  grid-template-rows: repeat(3, 100px); 
+  gap: 0px;  
+}
+
+.container-1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.container-2 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+
+.container-3 {
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+  color: white;
+  text-align: center;
+}
+
+.container-4 {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.container-5 {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  color: white;
+  text-align: center;
+}
+
+.container-6 {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  color: white;
+  text-align: center;
+}
+
+.container-7 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  color: white;
+  text-align: center;
+}
+
+.container-8 {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  color: white;
+  text-align: center;
+}
+
+.container-9 {
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+  color: white;
+  text-align: center;
+}
+
+
+*/
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*
+Ejercicio 5
+5.- Ahora veamos si puedes lograr lo siguiente:
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px); 
+  gap: 00px; 
+  grid-template-areas:
+    "a a a"
+    "b b b"
+    "c c c"
+    "d e f"
+    "g h i";
+}
+
+.container-1 {
+  width: 300px; 
+  height: 100px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  grid-area: a; 
+}
+
+.container-2 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  grid-area: d;
+}
+
+.container-3 {
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+  color: white;
+  text-align: center;
+  grid-area: e; 
+}
+
+.container-4 {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  grid-area: f; 
+}
+
+.container-5 {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  color: white;
+  text-align: center;
+  grid-area: g; 
+}
+
+.container-6 {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  color: white;
+  text-align: center;
+  grid-area: h; 
+}
+
+.container-7 {
+  width: 300px; 
+  height: 100px;
+  background-color: green;
+  color: white;
+  text-align: center;
+  grid-area: c; 
+}
+
+.container-8 {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  color: white;
+  text-align: center;
+  grid-area: i;
+}
+
+.container-9 {
+  width: 300px;
+  height: 100px;
+  background-color: aquamarine;
+  color: white;
+  text-align: center;
+  grid-area: b;
+}
+
+*/
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*
+Ejercicio 6
+6.- Para cerrar el tema de grid, realiza lo siguiente:
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 100px); 
+  grid-template-rows: repeat(4, 100px); 
+  gap: 0px; 
+  grid-template-areas:
+    "a a a a a"
+    "b b c d d"
+    "b b c e f"
+    "g h i i i";
+}
+
+.container-1 {
+  width: 500px; 
+  height: 100px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  grid-area: a;
+}
+
+.container-2 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  grid-area: b;
+}
+
+.container-3 {
+  width: 100px;
+  height: 200px;
+  background-color: lightgreen;
+  color: white;
+  text-align: center;
+  grid-area: c;
+}
+
+.container-4 {
+  width: 200px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  grid-area: d;
+}
+
+.container-5 {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  color: white;
+  text-align: center;
+  grid-area: e;
+}
+
+.container-6 {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  color: white;
+  text-align: center;
+  grid-area: f;
+}
+
+.container-7 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  color: white;
+  text-align: center;
+  grid-area: g;
+}
+
+.container-8 {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  color: white;
+  text-align: center;
+  grid-area: h;
+}
+
+.container-9 {
+  width: 300px;
+  height: 100px;
+  background-color: aquamarine;
+  color: white;
+  text-align: center;
+  grid-area: i;
+}
+
+*/
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
